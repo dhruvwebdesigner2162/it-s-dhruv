@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - It's Dhruv</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="icon" href="images/icon image 1.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        /* .contact-form {
+            background-color: #111927;
+            background-image:
+                radial-gradient(at 47% 33%, hsl(172.94, 64%, 16%) 0, transparent 59%),
+                radial-gradient(at 82% 65%, hsl(216.98, 97%, 17%) 0, transparent 55%);
+            height: 100vh;
+            display: grid;
+            place-items: center;
+        } */
+
+        /* form {
+            backdrop-filter: blur(500px) saturate(200%);
+            -webkit-backdrop-filter: blur(5px) saturate(200%);
+            background-color: rgba(17, 25, 40, 0.1, );
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.125);
+            height: 90%;
+            width: 40%;
+        }
+
+        ::placeholder {
+            color: rgb(167, 167, 167);
+        }
+
+        input {
+            margin-top: 10px;
+        }
+
+        textarea {
+            margin-top: 10px;
+            height: 100px;
+        }
+
+        */
+    </style>
+</head>
+
+<body>
+
+
+
+    <div class="banner"
+        style="background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8NDw0NDw8NDg0NDQ0NDQ0NDQ8NDQ0NFREWFhURFRUYHSogGBolGxUVITIhJSotLi4uFx83RDMuNygtLjcBCgoKDg0OFRAQFSsdFR0rLSsrKysrKystKysrLSsrLSsrKysrKy0rKy0rLS0tKysrKy0tLS0rLSsrKystKysrK//AABEIAJgBSwMBEQACEQEDEQH/xAAcAAADAQEBAQEBAAAAAAAAAAAAAQIDBgQFBwj/xABHEAACAQMCAQgGBAoIBwAAAAAAAQIDBBEFEiETFzFBUVOT0wYiYXGBkQcUM7EjJTJCUnShsrPBFjVDcnN1krQVJmOCotHh/8QAGQEBAQEBAQEAAAAAAAAAAAAAAAECAwQF/8QAMhEBAAIBAgQEBQIFBQAAAAAAAAERAjFhAxITISJBUXEyUoGRsSNyBBQzodEFQlNi4f/aAAwDAQACEQMRAD8A/EzowAHLqfsBBBQABAFADUvkW0oYT6PkwE0yUWAoAAAAwEMBZAANKVTCax09fYaxyqKZyi+6XwJo1qlsgAKj1+5lgkJY6fkWi2qt5SW7HA74fwvEzx540YniYxNMMHnmKdAQARcX1GkkpRwSltIFdPv+8aiSAKAKAgAAGotipLJkAFOXb2llIIin1e5l8k8yIoCAACgAAALjVaTj1M1GUxFM1c2gy0AAICh5IEABQEPGC0Gnnh8gFgAwBpSntzwzlYNYzTOUWgivVSuWouPUz2cP+LywwnGNHLLhxM280keSe8upYJSnGm3nC6BGMyk5UnBFXHjwKhOAosJFiB6J262Kaay/zew+hn/C4Rwee+7lHEnmryefYfPp1s9jJRY2FpLPYKWxtQpHstnDB2wmKcsreOvjLwcctXXHRmZbNcV+0MpCrj0PPw95YSUGVBQEAAAAAAABQ0A2hSWQUiAAChgNhCCrXH3/AHmkJIlCki0h7S0HGJrHGZlJlpKl1vh9526Fd8ppmM/RDwuhZ9rMzljHbGPuvdOX2nK5WoLp/wDZFDjglFt6c1jD6TpExTExNs8kaPJeaapKIypAGCUFgUpYFAXAAmuskwQkipTIBoSHLs7PvEiQoAaQRcprCjhcOvtNXGiVN2Scex/Bmo5POJXuMR7X8UOXD1O42djRJwjyktdahtSeclywqGcc7YnNsAPIBkICh4FAwKCFCkKAWg0hSLSz7zdWl0pQLGKWtQS6ePsR2jDGNUuVbuzh7ukvU8sYpK9RjJz1Vm4maWy2koLaSlsJChUYZ6C8tpOVG4YLy0l2NopbPaWksbRS2NoostpKLJxJRaXElLYSFCMGaW2RhprTjlN8PVNxFwzM92RhoANLJQ2+pfEIkigAAAKlNvpecFmZlKJIUDALGBQeBQMFoPApDSKDAoCQoPBaDSKjSm8PJrHszMWuTyzWskRUGkWhSRaQ0i0SJRJMIlxJytWnaSgbRQcVgtUkqxktWR2PaKLPaWgbRSWNoos40sjlJyRKJJhbZtGZhUMwp4A8pydDAABIIb4cF8WUSRTwAgAB4AABBFFAENFDSKKSLSGkWkNxLQW0lLZuIpLCRQ0gLSNI0jE6RhM6QzMtadGUniKbfYuLOscDP0Z5ofVs/Ri+r45O0up56429Vr54wa6UR8WcR9U5vSH16X0c6o1mVtyUf0q9WhRS/wBUkyfo/PftEyeL0N+gvJ/b6jpFHtUr3lJ/6YRZqI4fljlP0O/rEB+j2k0/tNYU31xttPr1c+6UnFFv04X3mDt8xY9H6XVrFw1+qW0H+8zM5Z+mMfeV8O5R1TRW9ktIuFTfCVaOq1JXEV+lGGxQb9j4HOYzn/d39monH0fO9KtBjY1KUqNR17O7oxubOu1tlOk3hxmuqcWsP4duDMd47x3jtJL4qiWkPaWg9oosYFIAM2jMtM5IxMKykjEqWTKvO0c27IKEght44fNgIKAAAIAAAChhAgi4moSWjhg1SWEi0K2loNRLSK2losbRRZsIjBKVdGlKcowjFynOSjGMVmUpN4UV7W+BccbHY3VppukS+r3FCWqahDCuYfWZ21jaVOl0oun61Wa6G8pftLhMz3iaj+5NIj6Zwp/YaVo1JLoc7Wpc1F/3VJ8fkdbjzyn70z9Fy+kTU+inWp28eqFtaWtFL4qGf2lrheeN+8ynieC79LdRr/aXt5Jdn1mrGP8ApTSNRljHw4R9kmJ85fNqXU5vM5OT7ZtyfzZrq5eXZnkhm5szOeU+axEeiHkz3aLAFQXFCI7pLrfSqP4s0D2UdQXw+sI1MVlxPePwkT2xcmokpTSCEFAAyCGiSrKRiVZSOctQgyrzJnJtUUpNLoz1mo7pPaF16ahjHX8y5RGKYzOWrHBhs8BF05KL7Tpw5iJ7plFis03lF4uUTNwYxTM5NAAAAGVDQRaNQi0aRaRqBokaplSiWi1YNUhNCgnElKlozQ6T6NqSlq+mKSTX1unLD7YpyT+DSfwLMeDKdljWHwtRk5Vq0pPMpVakpN9MpOTbfzN8WKy+zOM+bBHOIVojcItGkUioooMALAFQXFe8sakv0W/vLOjpWi/WrJ3knTveTzd1LaEFy/HOxZeeHyNZY5c/E5cqjt5bMxMVj2fFXpTbRwqWj6RFf9enVupY/vTkYjCfPOWuatIHpVYW1S1tNUtaX1aFzOtQuLVScqdK5p4eaeeKi0846hjExlOMzdRd7JemUOUKoATIIZJVnIxKsZHOWoQZV5kjk2p02izjMJZe8ijIKLJABTRUIgAoAChhDRUUiotGoRojUI0ibhGiZpDRpDwAsEoS0SldN9Ga/G+m/rK/dkWY/Tz9lifFDnr9fhav+JP7zfHjxs46MUjk0pGoZWjSLRQ0VAABVQ6UWNUl1vpZ/Vmg/wCFqH+4iby+PifT8M46YuRRzhqXYah/UFn/AJpd/wAKJ0r9TP8AbH5Yj4Y93G5OboEyITZFS2RWcjMqzkjEqnKMq8kJYaZyx7Okx2bXFbdg1llbOONMDDZAAAA0whtASFNLIpLAUFQwikUWmahFxZpGkWahGkWbhlaNooB4CJaFK6f6M1+N9O/WV+7IT/Tz9iPihzt+vwtX+/P72b43xM4aMMHKm1JGkUiopFDKGEIKcOlFjVJdb6WP8WaB/g6h/uIlynx8T6fhI0xchkxCuw1F/iCz/wA0u/4UTrP9TP8AbH5Zj4Y93F5OFuh5FonJLUiCZMkqykzEtMzCvMcm1SLIkitKdPcaiLZmaQ1glLEkRQBSKgwB6LepFLidMZhjKJY1eL4GauWo0e//AIb6m7PHGfYfYn/TI6PPbzfzHj5Xzj40xUvUaYRSZRSZYRpFm4RpFm4ZaxZuEWismUAV0/0a/wBbad+sr92Qy/pZ+xHxQ52++1qf35/ezfF1Zx0YHNoyhoIooZQ0EIDa0t51Zwp04ynUnJRhCCcpzk+pJdLNRHnJMul9O5qjDTtN3RlV0+2nG5cXujG5qz5SdLPXt9Ve/JzjLm5s/mn+0FVWPo5DJGnX6lL/AJfsv81u/wCDE6zP6mf7Y/LMR4Y93F7jz22JSFidxLU5SFpTNszMtIkzKpIrA5tGxIkCoywIkkNlQZIowAsAAFbe3h94SzU8dHz6zUSU2+uTxtzlfyPX/PcXk5fJz6WN2wa610fceOfV0IgMlFplFxZqEaxZuGWsWbhlaZpFZKDJR9/0FvoW+pafWqNRpwuqe+T4KMZerufYlnLJlc8PKI9CPiiXh9JNOq2V3cW9aLhUp1J8JcFOG57Zx7YtcUy3zxGUJVPDb0Z1XilCVR9lOLqP5ITFarRVqU6cnCcJ05xeJQqQlCcX7Yviia6E9nQWHoZe1qULiSt7ahUW6FW9uqNrGUP0kpvdt9uMMzOeMTWvsvLL33XoTTtZunearptvUjtc6UJV7qrFSipL1YQ600/iWM7744TMJONayzjpuiQXr6leV2uq206VLPudaRr9TywiPqVEeao3OhU/ybTVLh9txdULdP4Uk2WuL6xCeHc/6SWNP7HRrJe25uLm8fyk0hyZTrnP0hIyj5WVX02uoxlC2p2Vgppxk9Ps6dtUcezlFmS96aYnh4x3m8veV5pc7Rta1xJqlTq1pdLVOnOpLj24XvLV/wDpD61n6D6rW/JsbqK/Sq0nbxS7d1TCwSYwx1zj8/hYudIaell3SoWtnpNKrTuHazr3F3XpPdRd3UwuTpy/OjCKw5dDb9hz5pmcsvXt9GuWoiHJpmLEykZtYhO4WtK3cBaIciWqWyKWSKjKfTw9qMroJRwv5hIQRoAUyokimgi8Y6X8Os0g39nD7x2KS0RbLBA0UEZY93Wi4zUlHOPWuhm8sfONEiUnNVIoqLLDLWLNxKNIs1EotSN2ypSLYe4WBTLGVFOmsfT7UKNKFHladanTWKX1q3o3M6UeyMprODGWGEzeixMw+v6L+luq6jfWdo72tClVrw5SNGNK3hGjH16n5EVj1Iy6yZY8OMZnl7rE5XVtNZlRtrm41bUYKvd3lapcWGlz4baLk+SrXa6YwUVHFPpljjhZxfLlw0jWf8E63LitW1ate1qlxcTdStU4ObSWF1RivzYrqS6DeOUY9sdGJi3WahcafrHJXVa+WnXqo0qN3TrW1WtRrypwUFWpyp5xmKScX2fFzDmx8MRce6zU99JYR0vRKfGpqd1cY/NtdPlTz7nVkj0Yxn8sR75f4c5r1n7NFd6BS/JtdTuGu/uKNBPw02a8XzYx7RM/mmaj0n7n/SnT6a/A6NZ+x3NevdP5PBmZn/kn6RELEf8AUUfS62rZo3mmWDtJ9P1CgrS5oy/ThPLy/Y+DOOWHnjlN794bifKY7Om0TTZ0NO1iWl3sq1vOjSu6FWhN0LuhVotupRrQXFOUH0rg9nVwOWeWPNhz41Mfb3hvGO01L8rvtVuK+eVr162e9rVKq/8AJm5yrSIhI3fPlI5zNtRCc8DAzciW0WSWr12tLcdMYtyzypjcw2szlFNYzbBsxbYyBJGlJ4KlDg/Y/wBhDvCXHAFQz0YKHtX/AMQqEuScn7vcFpBFMAAeQg4FFbcikKEscOrrRrHLl10JixOOOK6H0FzwrTQiSRgUii0ywi0zSKUjVorcLBuLYW4lhbhY+x6L+kVXS67uqEaUq3I1aVN1U5RpuaS5RJPi0l18OLJlWUVOix2fNvb2pXqTrVZzqVasnOpUm90pyfW2Xm8o0RjuFilMsZFLUzVpSlItoumy2knN46BaQu2v6tBylSqVKUpwlTm6U5QcqclhxeOlPsJlN6tQ8UmYlpm2YlSm+BmSGTZlo0gNYV3HoNRlTM42yqVHJ5ZmZtYxpIaBBIVXUVCIq6NTa+PFdhYlnKLFWpubxwXYJkxioQRo8lQYFBEUEGtKjuTecYNRjbGWVSyI2MgAFQljg+KfUbxzrtOiTAkse7qZJhIJEFJlFJlQ9xbKPcLBuFlDcLC3CwtxChuFhqQsNSLZS1I1EopSNRKUtSLaUHIWUlyJas5MzKoMqmoySQlLJlTlLASEEaAAFMBJFRpvWMFtK7sjLQAAAAAYQ8lDUOvqFJZqT4roWHwKSzMtAAAAKi+rqZUldWk449pZimYytGSNHktoMiwZFgyLBkWDIBklhZFh5KGmBSkVFKRqxW4toe4WJciWUlslqUSCcZIolLqBTMy0AAAAAG2VCIoAAAAACgwBcYdb6PvLTNmqmH/ItlG5Zb9zJZVMjLQAAACorHF/BFTUSm30sXZVFkAAMgGQDIAAAAAAZAMgPJUUmUPcLBuBQyCibAqK4BJTKRFiGZGgQAAAAMo/T+YrV++03x7jyjj1dlocxWr99pnj3HlDq7FHzFav32m+PceUOrsUOYrV++03x7jyh1dii5itX77TfHuPKHV2KHMVq/faZ49x5RersUa+gvVu+03x7jyh1djlPmM1fvtM8e48odXY5TqfQbq8umtpvRj7e48oTxdkjGkcxWr99pvj3HlE6uy0cfoL1df22m+PceUXq7E4lzFav32m+PceUTq7FHzFav32mePceUOrsUXMVq/fab49x5Q6uxRr6C9W77TfHuPKL1djlD+gvV3/AG2mePceUTq7HKXMVq/faZ49x5Q6uxQ5itX77TPHuPKL1dihzFav32mePceUOrsUOYvV++0zx7jyh1dihzF6v32mePceUOrsUOYrV++03x7jyh1dij5itX77TPHuPKHV2KLmK1fvtN8e48odXYo+YrV++0zx7jyh1dii5itX77TPHuPKHV2KHMVq/faZ49x5Q6uxR8xWr99pvj3HlDq7FDmL1fvtN8e48odXY5RzF6v32m+PceUOrsco5jNX77TfHuPKHV2OU+YzV++03x7jyh1tjlLmL1fvtN8e48odbY5RzF6v32m+PceUOrscq39B2r4xy2mePceUXrbJyI5i9X77TfHuPKJ1dlouYrV++03x7jyh1dij5itX77TPHuPKJ1dii5itX77TfHuPKHV2KHMVq/fab49x5Q6uxR8xWr99pvj3HlDq7FFzFav32m+PceUOrsU/o05NAAAAAAAAAAAAAAAAAAA8upRqunJUJbauYuLe3HCSynlNLKys46wPjSsdQjGdOFaO2e/bJygp0XKafqvZlpR3JZ45l09GAp2mopvbcYi1Wf4TkqklOUFs47MJKXs6V2PAF1bW/wB+6NZuMXWivWoxcqcp0XFtcnjclGqk32rtAVta36q0alWpTnsjVjWjFxjGak4uKgtvDG3jnL6cNAO4oai3LZWjHMq21vktqTb2cOTzwjjHHg853LgB7rCjcRUlVq8p+F3Qk4w3cljGz1YxS7c+8DxXGn3XKb6dSUYyrSlKm69RpQ4RWM5/NdWWFwUnDpUQPPPTLuUdqqTg40nGE/rVaSqS5TMVUSksYilmUeLy+KSww0lpV5vT+tNxTo4e6rDKi5ZbipYy0qa7G3JtdAFaPp91SlSdWpOajGUanKXE6qa9ZppcMy3NcXlbV2gffAAAAAAAAAAAAAAAAAAAAA//2Q==);background-repeat: no-repeat;background-position: center;background-size: cover;">
+        <nav class="navbar navbar-expand-sm">
+            <div class="container">
+                <a href="Index.html" class="text-white text-decoration-none fw-bold logo">
+                    It's Dhruv
+                </a>
+
+                <button class="navbar-toggler bg-info" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <i class="fa fa-bars-staggered"></i>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ms-auto nav-pills my-2">
+                        <li class="nav-item mx-2"><a href="Index.html" class="nav-link fw-semibold text-white">Home</a>
+                        </li>
+                        <li class="nav-item mx-2"><a href="about.html" class="nav-link fw-semibold text-white">About</a>
+                        </li>
+                        <li class="nav-item mx-2"><a href="skills.html"
+                                class="nav-link fw-semibold text-white">Skills</a>
+                        </li>
+                        <li class="nav-item mx-2 dropdown"><a href="#"
+                                class="nav-link fw-semibold text-white dropdown-toggle" data-bs-toggle="dropdown">Select
+                                Skill</a>
+
+                            <ul class="dropdown-menu">
+                                <li><a href="figma.html" class="dropdown-item">Figma</a></li>
+                                <li><a href="html.html" class="dropdown-item">HTML</a></li>
+                                <li><a href="css.html" class="dropdown-item">CSS</a></li>
+                                <li><a href="bootstrap.html" class="dropdown-item">Bootstrap</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-2"><a href="#" class="nav-link fw-semibold text-white active">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container my-5 py-5">
+            <div class=" banner-detail contact-banner-details lh-5">
+                <h1 class="text-white py-2">Dhruv Prajapati</h1>
+                <h3 class="text-white"><span>dhruvpra2007@gmail.com</span></h3>
+                <h3 class="text-white">+91 7573834614</h3>
+                <div class="icons py-2 d-flex justify-content-start align-items-center">
+                    <div class="dropdown">
+                        <i class="fa-solid fa-phone b-icons bi-1 p-2 mb-3" data-bs-toggle="dropdown"></i>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">+91 7573834614</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="dropdown">
+                        <i class="fa-brands fa-instagram b-icons bi-2 p-2 mb-3" data-bs-toggle="dropdown"></i>
+                        <ul class="dropdown-menu">
+                            <li><a href="https://www.instagram.com/mr_d.s.p_374/" class="dropdown-item">mr_d.s.p_374</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="dropdown">
+                        <i class="fa-brands fa-whatsapp b-icons bi-3 p-2 mb-3" data-bs-toggle="dropdown"></i>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">+91 7573834614</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="footer mb-4 d-flex justify-content-center align-items-end text-white"
+        style="font-size: 20px;height: 112px;transform: translateY(25px);">
+        <div class="footer-text h-50 w-100 d-flex justify-content-center align-items-center py-4">
+            Copyrigt &copy 2024
+        </div>
+        </div> -->
+
+
+    <div class="contact-form">
+        <!-- <form action="">
+            <div class="container">
+                <div class="full-name mt-5">
+                    <label for="full-name" class="text-white">Full Name</label> <br>
+                    <input type="text" class="w-100 rounded border-0 px-3 py-2 bg-secondary" placeholder="Full Name">
+                </div>
+
+                <div class="full-name mt-4">
+                    <label for="full-name" class="text-white">Full Name</label> <br>
+                    <input type="text" class="w-100 rounded border-0 px-3 py-2 bg-secondary" placeholder="Full Name">
+                </div>
+
+                <div class="full-name mt-4">
+                    <label for="full-name" class="text-white">Full Name</label> <br>
+                    <input type="text" class="w-100 rounded border-0 px-3 py-2 bg-secondary" placeholder="Full Name">
+                </div>
+
+                <div class="full-name mt-4">
+                    <label for="full-name" class="text-white">Full Name</label> <br>
+                    <textarea class="w-100 rounded border-0 px-3 py-2 bg-secondary" placeholder="Full Name"></textarea>
+                </div>
+
+                <div class="f-button">
+                    <input type="button" value="Submit" class="btn btn-primary px-4 py-2 fw-semibold">
+                </div>
+            </div>
+        </form> -->
+
+        <form class="my-5">
+            <div class="container text-center form">
+                <input type="text" placeholder="Full Name" class="h-w input-form rounded width-media">
+                <input type="email" placeholder="Email" class="h-w input-form rounded width-media">
+                <input type="number" placeholder="Mobile Number" class="h-w input-form rounded width-media">
+                <textarea name="" id="" class="h-w textarea-form rounded width-media"
+                    placeholder="Message"></textarea><br>
+                <button class="btn btn-outline-info mt-3 px-4 button">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="footer d-flex justify-content-center align-items-end text-white"
+        style="font-size: 20px;transform: translateY(25px);">
+        <div class="footer-text h-50 w-100 d-flex justify-content-center align-items-center py-3">
+            Copyrigt &copy 2024
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
