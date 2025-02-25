@@ -2,13 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #20232f;
-    width: 100%;
-    overflow-x: hidden;
 }
-
-/* * {
-    border: 1px solid red;
-} */
 
 ::selection {
     background-color: black;
